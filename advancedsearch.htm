@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Google Advanced Search</title>
+		<style>
+		body{
+		font-family: Arial, sans-serif;
+		text-align: left;
+		}
+
+		div.other-pages{
+		padding: 10px;
+		font-family: Arial, sans-serif;
+		text-align: right;
+		font-size: 14px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		}
+		
+		div.heading{
+		font-size: 20px;
+		color: rgb(217, 48, 37);
+		padding: 18px;
+		margin: 0px 0px 0px 10px;
+		border-bottom: 0.4pt, rgb(211, 211, 211);
+		}
+		
+		p{
+		font-size: 12pt;
+		padding: 18px;
+		margin: 0px 0px 0px 10px;
+		}
+		
+		label{
+		font-size: 13px;
+		padding: 18px;
+		margin: 12pt
+		}
+		
+		input[type=text]{
+		margin: 10pt;
+		border: 0.5px solid rgb(220, 220, 220);
+		width: 400.59px;
+		height: 29px;
+		font-size: 14px;
+		padding: 1px 8px;
+		}
+		
+		input[type=submit]{
+		float: right;
+		background-color: rgb(65, 105, 255);
+		margin: 10px 0px;
+		padding: 0px 12px;
+		border: 0.5px solid rgb(0, 0, 255);
+		width: 120px;
+		height: 30px;
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+		font-size: 11px;
+		text-align: center;
+		}
+		
+		</style>
+	</head>
+	<body>
+	<img src="googlelogo.jpg" alt="Google logo" height="51" width="96">
+	<div class="other-pages">
+	<a href="index.html">Google Search</a>
+	<a href="imagesearch.html">Image Search<a></div>
+	<div class="heading">Advanced Search</div>
+	<p>Find pages with...</p>
+	<form action="https://google.com/search" name="f">
+		<table>
+			<tr>
+				<td><label for="as_q">all these words:</label></td>
+				<td>&nbsp;</td>
+				<td><input type="text" name="as_q"></td>
+			</tr>
+			<tr>
+				<td><label for="as_epq">this exact word or phrase:</label></td>
+				<td>&nbsp;</td>
+				<td><input type="text" name="as_epq"></td>
+			</tr>
+			<tr>
+				<td><label for="as_oq">any of these words:</label></td>
+				<td>&nbsp;</td>
+				<td><input type="text" name="as_oq"></td>
+			</tr>
+			<tr>
+				<td><label for="as_eq">none of these words:</label></td>
+				<td>&nbsp;</td>
+				<td><input type="text" name="as_eq"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td><input type="submit" value="Advanced Search"></td>
+			</tr>
+		</table>
+	</form>
+	</body>
+</html>
