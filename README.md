@@ -1,6 +1,6 @@
 # Search 🔍:
 
-**Project 1 of the CS50 Web Development with Python and JavaScript**
+**Project 0 of the CS50 Web Development with Python and JavaScript**
 
 ## Task 💻
 
