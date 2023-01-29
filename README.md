@@ -26,7 +26,10 @@ Search, and one for Google Advanced Search.
   - You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.
 - The CSS you write should resemble Google’s own aesthetics.
 
-## Functionality
+## Functionality ⚙️
 
-If you want to see how this Google Search project functions, click on [this link](https://youtu.be/Q261IcPHCW8) and you will be directed to the YouTube video. The timestamps for each specification are in the video description.
+If you want to see how this Google Search project functions, click on [this link](https://youtu.be/Q261IcPHCW8) and you will be directed to the YouTube video. The timestamps for each element of the specification are in the video description.
 
+## Source
+
+https://cs50.harvard.edu/web/2020/projects/0/search/
